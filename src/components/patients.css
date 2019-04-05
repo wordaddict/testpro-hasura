@@ -1,0 +1,42 @@
+i {  vertical-align: middle; }
+.table-users tbody tr:hover {
+	cursor: pointer;
+	background-color: #eee;
+}
+.nav-user-photo {
+     vertical-align: middle;
+}
+.user_panel {
+    width: 90%;
+}
+
+@media (min-width: 500px) {
+  .user_panel {
+    width: 70%;
+  }
+}
+
+.row {
+    margin-top: 50px;
+}
+
+.row-tb {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.panel-default {
+    margin: 0 auto;
+}
+
+.users-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.table-container {
+  overflow-x: auto;
+}

@@ -1,33 +1,99 @@
-.App {
-  text-align: center;
+.btn-margin {
+  margin: 7px 3px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+/* todos css */
+.list-group-item {
+  padding: 2.2em;
+  border: 2px solid black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.list-group-item h4 {
+  display: inline;
+  margin-left: 2.5em;
+}
+
+.list-group-item button {
+  margin-bottom: 4px;
+}
+
+.logout {
+  background-color: brown;
+  /* position: relative;
+  left: 80vw; */
+}
+
+
+.navbar-header {
+  width: 100%;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+
+.navbar-header > a {
+  text-decoration: none;
+  font-size: x-large;
+  text-transform: uppercase;
+}
+
+.navbar-header button {
+  color: #fff;
+  padding: 10px;
+  background-color: #007bff;
+  border: 1px solid transparent;
+  border-radius: .3rem;
+  outline: none;
+  transition: all .3s;
+}
+
+.navbar-header button:last-child {
+  margin-left: 20px;
+}
+
+.navbar-header button:hover {
+  color: #007bff;
+  background-color: #fff;
+}
+
+.modal {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.modal div {
+  margin: 20px;
+  padding: 30px 15px;
+  text-align: center;
+  background-color: #fafafa;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.modal h2 {
+  margin-bottom: 20px;
+}
+
+.modal button {
+  width: 100%;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  transition: all .3s;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  padding: .5rem .75rem;
+  font-size: 1rem;
+  line-height: 1.25;
+  border-radius: .25rem;
+}
+
+.modal button:hover {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
 }
