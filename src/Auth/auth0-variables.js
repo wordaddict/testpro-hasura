@@ -3,6 +3,6 @@ export const AUTH_CONFIG = {
     clientId: 'Sdyqs251mwskNRJQsIpnQQzobm6fVoOC',
     responseType: 'token id_token',
     scope: 'openid',
-    callbackUrl: 'https://fervent-pasteur-74bc0e.netlify.com'
+    callbackUrl: 'https://fervent-pasteur-74bc0e.netlify.com/callback'
   }
   
